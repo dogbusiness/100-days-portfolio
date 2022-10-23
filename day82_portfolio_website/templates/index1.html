@@ -1,0 +1,72 @@
+{% include "header.html" %}
+
+  <section id="intro">
+  <header class="masthead" style="background-image: url('static/img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Мой блог на BS5</h1>
+            <span class="subheading">Мы живем в Lorem Ipsum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  </section>
+
+<section id="skills">
+    <div class="container-fluid">
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-softskills-tab" data-bs-toggle="pill" data-bs-target="#pills-softskills" type="button" role="tab" aria-controls="pills-softskills" aria-selected="true">Soft Skills</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-hardskills-tab" data-bs-toggle="pill" data-bs-target="#pills-hardskills" type="button" role="tab" aria-controls="pills-hardskills" aria-selected="false">Hard Skills</button>
+          </li>
+        </ul>
+        <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
+          <div class="tab-pane fade shadow show active p-3 mb-5" id="pills-softskills" role="tabpanel" aria-labelledby="pills-softskills-tab">
+              <ul class="skills-card">
+                  <li>Verbal & non-verbal of communication</li>
+                  <li>Conflict management</li>
+                  <li>Training ability</li>
+                  <li>Critical Thinking</li>
+                  <li>Commitment</li>
+                  <li>Punctuality</li>
+              </ul>
+          </div>
+          <div class="tab-pane fade shadow p-3 mb-5" id="pills-hardskills" role="tabpanel" aria-labelledby="pills-hardskills-tab">
+              <ul class="skills-card">
+                  <li><strong>Python Web Frameworks:</strong> Flask, Django</li>
+                  <li><strong>Python Data Analysis:</strong> pandas, matplotlib</li>
+                  <li><strong>Python Libraries:</strong> aiogram (async telegram bots) and others</li>
+                  <li><strong>Web:</strong> API, HTTP requests, web scraping</li>
+                  <li><strong>Web Design:</strong> HTML, CSS, jinja, bootstrap5</li>
+                  <li><strong>SQL:</strong> sqlalchemy, MySQL, T-SQL</li>
+              </ul>
+          </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% include "footer.html" %}
