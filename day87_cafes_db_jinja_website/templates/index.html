@@ -1,0 +1,30 @@
+{% include "header.html" %}
+<body>
+    <h2 class="text-center" style="margin-bottom: 20px; margin-top: 20px">Cafes</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h3>Name</h3>
+            </div>
+            <div class="col">
+                <h3>WiFi</h3>
+            </div>
+        </div>
+        {% for cafe in cafes %}
+        <div class="row">
+            <div class="col">
+                <h4>{{ cafe.name }}</h4>
+            </div>
+            <div class="col">
+                <h4>{{ cafe.wifi }}</h4>
+            </div>
+        </div>
+        {% endfor %}
+        <div class="row text-center">
+            <div class="col">
+                <a href="{{ url_for('add_cafe') }}" style="margin-top: 20px;" type="button" class="btn btn-dark">Submit New</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
