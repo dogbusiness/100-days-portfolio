@@ -9,4 +9,3 @@ Portfolio description
 *   day86 - "Game" with python turtle library. skipped  
 *   day87_cafes_db_jinja_website - the website (Flask) with dynamic templating and basic interactions with db  
 *   day_to_do_list - the website (Flask) where you can create to-do lists and tasks. Pretty tough one, honestly. The concept: you create a list with one task and you are told list's id. You can enter it in search box and return to it later. No registration/no login for users (made on purpose) You can add new tasks, edit and delete them afterwards, search lists, edit their names.  
-*   
